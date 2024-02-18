@@ -1,6 +1,7 @@
 # RepRap Prusa i3 Custom Clone
 
-# Customized Marlin Firmware based on version 1.1
- for Prusa i3 Model with 5mm lead screw.
+Prusa i3 Clone
 
-## extended from  https://github.com/MarlinFirmware/Marlin/
+## Marlin Firmware 1.1.3
+
+ for Prusa i3 Model with 5mm lead screw.
