@@ -1,0 +1,215 @@
+#
+# Marlin 3D Printer Firmware
+# Copyright (C) 2017 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
+#
+# Based on Sprinter and grbl.
+# Copyright (C) 2011 Camiel Gubbels / Erik van der Zalm
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+
+# Our automatic versioning scheme generates the following file
+# NEVER put it in the repository
+_Version.h
+
+#
+# OS
+#
+applet/
+*.DS_Store
+
+
+#
+# Misc
+#
+*~
+*.orig
+*.rej
+*.bak
+*.idea
+*.s
+*.i
+*.ii
+*.swp
+tags
+
+#
+# C++
+#
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+*.ino.cpp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+
+#
+# C
+#
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+
+# PlatformIO files/dirs
+.pio*
+lib/readme.txt
+
+#Visual Studio
+*.sln
+*.vcxproj
+*.vcxproj.filters
+Marlin/Release/
+Marlin/Debug/
+Marlin/__vm/
+Marlin/.vs/
+
+#cmake
+CMakeLists.txt
+Marlin/CMakeLists.txt
+CMakeListsPrivate.txt
+
+#CLion
+cmake-build-*
+
+
+### PlatformIO ###
+.pioenvs
+.piolibdeps
+.clang_complete
+.gcc-flags.json
+.pio
+
+
+# Created by https://www.toptal.com/developers/gitignore/api/windows,linux,macos
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,linux,macos
+### Linux ###
+*~
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+# KDE directory preferences
+.directory
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+# Icon must end with two \r
+Icon
+# Thumbnails
+._*
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+### macOS Patch ###
+# iCloud generated files
+*.icloud
+
+
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+# Dump file
+*.stackdump
+# Folder config file
+[Dd]esktop.ini
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+# Windows shortcuts
+*.lnk
+# End of https://www.toptal.com/developers/gitignore/api/windows,linux,macos
+
+
+# VisualStudioCode
+.vscode/*
